@@ -1,0 +1,43 @@
+{
+    "name": "cpp-snippets",
+    "displayName": "C++ Quick Start",
+    "publisher": "kamilowskiy",
+    "description": "C++ Quick Start Snippets",
+    "version": "1.0.0",
+    "license": "MIT",
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#505050",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^0.10.0"
+    },
+    "homepage": "https://github.com/yyxhx/vsce_cppQucikStartForBeginners/README.md",
+    "bugs": {
+        "url": "https://github.com/yyxhx/vsce_cppQucikStartForBeginners/issues",
+        "email": "kamil.15get@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yyxhx/vsce_cppQucikStartForBeginners.git"
+    },
+    "categories": [
+        "Snippets",
+        "Other"
+	],
+    "keywords": [
+        "c++",
+        "iostream",
+        "std",
+        "cpp"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "cpp",
+                "path": "./snippets/cpp.json"
+            }
+        ]
+    }
+}
