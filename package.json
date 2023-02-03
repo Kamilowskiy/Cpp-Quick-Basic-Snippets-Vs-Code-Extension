@@ -13,14 +13,14 @@
     "engines": {
         "vscode": "^0.10.0"
     },
-    "homepage": "https://github.com/yyxhx/vsce_cppQucikStartForBeginners/README.md",
+    "homepage": "https://github.com/Kamilowskiy/Cpp-Quick-Basic-Snippets-Vs-Code-Extension/",
     "bugs": {
-        "url": "https://github.com/yyxhx/vsce_cppQucikStartForBeginners/issues",
+        "url": "https://github.com/Kamilowskiy/Cpp-Quick-Basic-Snippets-Vs-Code-Extension/issues",
         "email": "kamil.15get@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/yyxhx/vsce_cppQucikStartForBeginners.git"
+        "url": "https://github.com/Kamilowskiy/Cpp-Quick-Basic-Snippets-Vs-Code-Extension/"
     },
     "categories": [
         "Snippets",
