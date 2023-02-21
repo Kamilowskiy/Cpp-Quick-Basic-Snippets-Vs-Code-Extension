@@ -106,7 +106,7 @@
   "switch": {
     "prefix": "switch",
     "body": [
-      "switch(char temp=getch()){",
+      "switch($1){",
       "  case $2:",
       "\t$0",
       "\tbreak;",
