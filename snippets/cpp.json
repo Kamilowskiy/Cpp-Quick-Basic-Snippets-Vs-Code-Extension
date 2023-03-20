@@ -19,9 +19,9 @@
   "#include": {
     "prefix": "#inc",
     "body": [
-      "#include "
+      "#include <$0>"
     ],
-    "description": "snippet for a library include"
+    "description": "snippet for a library including"
   },
   "using": {
     "prefix": "using",
@@ -87,17 +87,17 @@
   "class": {
     "prefix": "class",
     "body": [
-      "class $0",
-      "{",
-      "",
-      "};\n"
+      "class $0{",
+      "\tpublic:",
+      "\n$0",
+      "};"
     ],
     "description": "snippet for a class"
   },
   "struct": {
     "prefix": "struct",
     "body": [
-      "struct $1{",
+      "struct $0{",
       "\t$0",
       "};\n"
     ],
@@ -110,8 +110,8 @@
       "  case $2:",
       "\t$0",
       "\tbreak;",
-      "\n",
-      "\n",
+      "\n$0",
+      "\n$0",
       "  default:",
       "\tbreak;",
       "}"
@@ -133,5 +133,26 @@
       "template <typename $0>"
     ],
     "description": "snippet for a template"
+  },
+  "std::":{
+    "prefix": "std",
+    "body": [
+      "std::"
+    ],
+    "description": "snippet for std::"
+  },
+  "cout":{
+    "prefix": "co",
+    "body": [
+      "cout<<\"\""
+    ],
+    "description": "snippet for cout"
+  },
+  "this":{
+    "prefix": "this",
+    "body": [
+      "this->"
+    ],
+    "description": "snippet for pointer this"
   }
 }
