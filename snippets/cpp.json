@@ -127,13 +127,6 @@
     ],
     "description": "snippet for a switch-case"
   },
-  "template": {
-    "prefix": "tem",
-    "body": [
-      "template <typename $0>"
-    ],
-    "description": "snippet for a template"
-  },
   "std::":{
     "prefix": "std",
     "body": [
@@ -142,7 +135,7 @@
     "description": "snippet for std::"
   },
   "cout":{
-    "prefix": "co",
+    "prefix": "cout",
     "body": [
       "cout<<\"\""
     ],
