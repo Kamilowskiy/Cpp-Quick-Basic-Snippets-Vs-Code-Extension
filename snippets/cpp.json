@@ -17,7 +17,7 @@
     "description": "Snippet for main code."
   },
   "#include": {
-    "prefix": "#inc",
+    "prefix": "inc",
     "body": [
       "#include <$0>"
     ],
@@ -95,7 +95,7 @@
     "description": "snippet for a class"
   },
   "struct": {
-    "prefix": "struct",
+    "prefix": "str",
     "body": [
       "struct $0{",
       "\t$0",
@@ -135,7 +135,7 @@
     "description": "snippet for std::"
   },
   "cout":{
-    "prefix": "cout",
+    "prefix": "co",
     "body": [
       "cout<<\"\""
     ],
