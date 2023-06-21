@@ -88,7 +88,7 @@
     "prefix": "class",
     "body": [
       "class $0{",
-      "\tpublic:",
+      "public:",
       "\n$0",
       "};"
     ],
@@ -137,7 +137,7 @@
   "cout":{
     "prefix": "co",
     "body": [
-      "cout<<\"\""
+      "cout<<\"\";"
     ],
     "description": "snippet for cout"
   },
