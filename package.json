@@ -1,9 +1,9 @@
 {
     "name": "cpp-basic-snippets",
-    "displayName": "C++ Quick Start Snippets",
+    "displayName": "C++ Quick Basic Snippets",
     "publisher": "kamilowskiy",
-    "description": "C++ Quick Snippets for beginners",
-    "version": "1.1.1",
+    "description": "C++ Quick Bsic Snippets for beginners",
+    "version": "1.2.0",
     "license": "MIT",
     "icon": "images/icon.png",
     "galleryBanner": {
@@ -34,7 +34,9 @@
         "class",
         "cout",
         "if",
-        "for"
+        "for",
+        "C",
+        "c"
     ],
     "contributes": {
         "snippets": [

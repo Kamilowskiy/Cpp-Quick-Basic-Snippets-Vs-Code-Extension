@@ -14,7 +14,7 @@
       "}",
       ""
     ],
-    "description": "Snippet for main code."
+    "description": "Snippet for main structure of code."
   },
   "#include": {
     "prefix": "inc",
@@ -113,6 +113,7 @@
       "\n$0",
       "\n$0",
       "  default:",
+      "\t$0",
       "\tbreak;",
       "}"
     ],
@@ -137,7 +138,7 @@
   "cout":{
     "prefix": "co",
     "body": [
-      "cout<<\"\";"
+      "cout<<\"\"<<endl;"
     ],
     "description": "snippet for cout"
   },
@@ -147,5 +148,12 @@
       "this->"
     ],
     "description": "snippet for pointer this"
+  },
+  "cin":{
+    "prefix": "cin",
+    "body": [
+      "cin<< ;"
+    ],
+    "description": "snippet for cin input"
   }
 }
